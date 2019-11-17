@@ -1,9 +1,0 @@
-{
-  "Departure station": "departureStation",
-  "Arrival station": "arrivalStation",
-  "Flight number": "flightNumber",
-  "Aircraft type dropdown": "aircraftTypeDropdown",
-  "Aircraft type": "aircraftType",
-  "Search button": "searchButton",
-  "No data container": "noDataContainer"
-}
