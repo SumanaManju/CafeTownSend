@@ -1,5 +1,5 @@
 The automation test are created in Protractor, so you will need NodeJS to run it, steps to install it:
-1.Install Intellij
+1. Install Intellij
 2. Install NodeJS (If you dont have it)
 3. Install NPM (If you dont have it)
 4. Execute command: `npm install`
