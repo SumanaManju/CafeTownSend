@@ -7,7 +7,7 @@ export class SearchPageObjects extends CommonStepDefinitions implements BasePage
     backButton: element(by.css('.subButton.bBack')),
     viewPage: element(by.css('.main-view-employees')),
     checklist: element(by.repeater('employee in employees'))
-      .element(by.xpath('//li[contains(text(), "Sumana Manju")]'))
+      .element(by.xpath('//li[contains(text(), "Sumana Bala")]'))
   };
 }
 

@@ -8,7 +8,7 @@ export class DeletePageObjects extends CommonStepDefinitions implements BasePage
     deleteButton: element(by.cssContainingText('.main-button', 'Delete')),
     viewPage: element(by.css('.main-view-employees')),
     checklist: element(by.repeater('employee in employees'))
-      .element(by.xpath('//li[contains(text(), "Pichu Manju")]'))
+      .element(by.xpath('//li[contains(text(), "Suma Bala")]'))
   };
 }
 

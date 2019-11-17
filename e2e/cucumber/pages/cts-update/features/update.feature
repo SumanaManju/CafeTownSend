@@ -14,6 +14,6 @@ Feature: Update - I want to update the employee I created in CafeTownSend applic
 
     Examples:
       | newFirstName |  title         |
-      | Pichu        |  Sumana Manju  |
+      | Suma         |  Sumana Bala   |
 
 

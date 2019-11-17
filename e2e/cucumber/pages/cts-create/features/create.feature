@@ -17,5 +17,5 @@ Feature: Create - I want to create a new employee in CafeTownSend application
 
     Examples:
       | firstName | lastName | startDate     | email          |
-      | Sumana    | Manju    | 1992-07-22    | suma@gmail.com |
+      | Sumana    | Bala     | 2019-04-08    | sb@gmail.com |
 

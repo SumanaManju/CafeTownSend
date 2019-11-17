@@ -12,6 +12,6 @@ Feature: Search - I want to search the employee I created in CafeTownSend applic
 
     Examples:
       |  title        |
-      | Sumana Manju  |
+      | Sumana Bala   |
 
 

@@ -14,4 +14,4 @@ Feature: Delete - I want to delete the employee I created in CafeTownSend applic
 
     Examples:
       |  title        |
-      |  Pichu Manju  |
+      |  Suma Bala    |
