@@ -1,0 +1,107 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Habile Logout",
+    "line": 2,
+    "id": "habile-logout",
+    "tags": [
+      {
+        "name": "@Logout",
+        "line": 1
+      },
+      {
+        "name": "@IgnoreForLocalhost",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\logout\\features\\logout.feature",
+    "elements": [
+      {
+        "id": "habile-logout;logout",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Logout",
+        "tags": [
+          {
+            "name": "@Logout",
+            "line": 1
+          },
+          {
+            "name": "@IgnoreForLocalhost",
+            "line": 1
+          },
+          {
+            "name": "@LogoutScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Logout: I am on the \"/\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Logout: I wait for \"1\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Logout: I click on \"Logout\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:95"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 296000000,
+              "error_message": "WebDriverError: Element <p class=\"main-button\"> is not clickable at point (831,245) because another element <div class=\"main-view-wrapper main-view-wrapper-loggedIn\"> obscures it\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'KLM142367', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.click()\n    at thenableWebDriverProxy.schedule (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElement.schedule_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n    at WebElement.click (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2092:17)\n    at actionFn (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:461:65)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error: \n    at ElementArrayFinder.applyAction_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:831:22)\n    at World.<anonymous> (C:\\Users\\x018969\\Documents\\Angular\\myapp\\e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:98:47)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Logout: I am on the \"Login\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

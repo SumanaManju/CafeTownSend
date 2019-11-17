@@ -1,0 +1,146 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Habile Authentication",
+    "line": 2,
+    "id": "habile-authentication",
+    "tags": [
+      {
+        "name": "@Authentication",
+        "line": 1
+      },
+      {
+        "name": "@IgnoreForLocalhost",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\login\\features\\login.feature",
+    "elements": [
+      {
+        "id": "habile-authentication;i-can-login-into-the-cms-application",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I can login into the CMS application",
+        "tags": [
+          {
+            "name": "@Authentication",
+            "line": 1
+          },
+          {
+            "name": "@IgnoreForLocalhost",
+            "line": 1
+          },
+          {
+            "name": "@LoginScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login: I am on the \"/\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Login: I fill \"Luke\" in \"Username\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Login: I fill \"Skywalker\" in \"Password\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Login: I click on \"Login button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

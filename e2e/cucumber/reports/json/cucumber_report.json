@@ -1,0 +1,883 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login CafeTownSend application",
+    "line": 2,
+    "id": "login-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Authentication",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\login\\features\\login.feature",
+    "elements": [
+      {
+        "id": "login-cafetownsend-application;i-login-to-cafetownsend-application",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I login to CafeTownSend application",
+        "tags": [
+          {
+            "name": "@Authentication",
+            "line": 1
+          },
+          {
+            "name": "@LoginScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login: I am on the \"/\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Login: I fill \"Luke\" in \"Username\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Login: I fill \"Skywalker\" in \"Password\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Login: I click on \"Login button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Login: Check \"Greeting\" message",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\login\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Create - I want to create a new employee in CafeTownSend application",
+    "line": 2,
+    "id": "create---i-want-to-create-a-new-employee-in-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Create",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\cts-create\\features\\create.feature",
+    "elements": [
+      {
+        "id": "create---i-want-to-create-a-new-employee-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-can-create-a-new-employee",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "I am on CafeTownSend application and I can create a new employee",
+        "tags": [
+          {
+            "name": "@Create",
+            "line": 1
+          },
+          {
+            "name": "@CreateScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Create: I am on the \"MainViewEmployee\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Create: I wait for \"3\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Create: I click on \"Create button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 452000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Create: I wait for \"3\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Create: I am on the \"Create\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Create: I wait for \"3\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Create: I fill \"sss\" in \"Firstname\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Create: I fill \"maa\" in \"Lastname\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Create: I fill \"1949-01-24\" in \"Startdate\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Create: I fill \"a333@go.com\" in \"Email\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "Create: I wait for \"3\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Create: I click on \"Add button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Search - I want to search the employee I created in CafeTownSend application",
+    "line": 2,
+    "id": "search---i-want-to-search-the-employee-i-created-in-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Search",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\cts-search\\features\\search.feature",
+    "elements": [
+      {
+        "id": "search---i-want-to-search-the-employee-i-created-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-want-to-search-the-employee-i-created",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "I am on CafeTownSend application and I want to search the employee I created",
+        "tags": [
+          {
+            "name": "@Search",
+            "line": 1
+          },
+          {
+            "name": "@UpdateScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Search: I am on the \"View\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Search: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Search: I click on \"Checklist\" have \"sss maa\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\cts-search\\cts-search.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Search: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Search: I click on \"Back button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Search: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Update - I want to update the employee I created in CafeTownSend application",
+    "line": 2,
+    "id": "update---i-want-to-update-the-employee-i-created-in-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Update",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\cts-update\\features\\update.feature",
+    "elements": [
+      {
+        "id": "update---i-want-to-update-the-employee-i-created-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-want-to-update-the-employee-i-created",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I am on CafeTownSend application and I want to update the employee I created",
+        "tags": [
+          {
+            "name": "@Update",
+            "line": 1
+          },
+          {
+            "name": "@UpdateScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Update: I am on the \"View\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Update: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Update: I click on \"Checklist\" have \"sss maa\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\cts-update\\cts-update.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Update: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update: I fill \"AMS\" in \"Firstname\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Update: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Update: I click on \"Update button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Update: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Delete - I want to delete the employee I created in CafeTownSend application",
+    "line": 2,
+    "id": "delete---i-want-to-delete-the-employee-i-created-in-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Delete",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\cts-delete\\features\\delete.feature",
+    "elements": [
+      {
+        "id": "delete---i-want-to-delete-the-employee-i-created-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-can-delete-the-employee-i-created",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "I am on CafeTownSend application and I can delete the employee I created",
+        "tags": [
+          {
+            "name": "@Delete",
+            "line": 1
+          },
+          {
+            "name": "@DeleteScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Delete: I am on the \"View\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Delete: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Delete: I click on \"Checklist\" have \"AMS\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\cts-delete\\cts-delete.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Delete: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Delete: I click on \"Delete button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Delete: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Delete: I switch to alert",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\cts-delete\\cts-delete.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Delete: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Logout CafeTownSend application",
+    "line": 2,
+    "id": "logout-cafetownsend-application",
+    "tags": [
+      {
+        "name": "@Logout",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\logout\\features\\logout.feature",
+    "elements": [
+      {
+        "id": "logout-cafetownsend-application;i-logout-cafetownsend-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "I logout CafeTownSend application",
+        "tags": [
+          {
+            "name": "@Logout",
+            "line": 1
+          },
+          {
+            "name": "@LogoutScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Logout: I am on the \"MainViewEmployee\" page",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Logout: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Logout: I click on \"Logout\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Logout: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Logout: I am on the \"/\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1808000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Habile Authentication",
+    "line": 2,
+    "id": "habile-authentication",
+    "tags": [
+      {
+        "name": "@Authentication",
+        "line": 1
+      },
+      {
+        "name": "@IgnoreForLocalhost",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\cucumber\\pages\\login\\features\\login.feature",
+    "elements": [
+      {
+        "id": "habile-authentication;i-can-login-into-the-cms-application",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I can login into the CMS application",
+        "tags": [
+          {
+            "name": "@Authentication",
+            "line": 1
+          },
+          {
+            "name": "@IgnoreForLocalhost",
+            "line": 1
+          },
+          {
+            "name": "@LoginScenario",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Login: I am on the \"/\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5016000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Login: I fill \"Luke\" in \"Username\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Login: I fill \"Skywalker\" in \"Password\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 379000000,
+              "error_message": "WebDriverError: Failed to decode response from marionette\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'KLM142367', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.3'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.executeScript()\n    at thenableWebDriverProxy.schedule (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.executeScript (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\by.js:191:35\n    at call (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:28)\n    at C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:907:19\n    at ManagedPromise.invokeCallback_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: WebDriver.call(function)\n    at thenableWebDriverProxy.call (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:901:23)\n    at thenableWebDriverProxy.findElementsInternal_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:17)\n    at thenableWebDriverProxy.findElements (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1043:19)\n    at Object.findElementsOverride (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\locators.js:177:31)\n    at ptor.waitForAngular.then (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:156:40)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7Error: \n    at ElementArrayFinder.applyAction_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as clear] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as clear] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:831:22)\n    at World.<anonymous> (C:\\Users\\x018969\\Documents\\Angular\\myapp\\e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:60:40)Error: \n    at ElementArrayFinder.applyAction_ (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (C:\\Users\\x018969\\Documents\\Angular\\myapp\\node_modules\\protractor\\built\\element.js:831:22)\n    at World.<anonymous> (C:\\Users\\x018969\\Documents\\Angular\\myapp\\e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:60:48)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Login: I click on \"Login button\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Login: I wait for \"5\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

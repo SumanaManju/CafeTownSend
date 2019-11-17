@@ -1,0 +1,20 @@
+{
+  "prod": {
+    "features": [
+      "../pages/login/features/**/*.feature"
+
+    ],
+    "steps": [
+      "../pages/**/*.ts"
+    ]
+  },
+  "local": {
+    "features": [
+      "../pages/login/features/**/*.feature"
+
+    ],
+    "steps": [
+      "../pages/**/*.ts"
+    ]
+  }
+}

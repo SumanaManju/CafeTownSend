@@ -1,0 +1,24 @@
+{
+  "prod": {
+    "features": [
+      "../pages/login/features/**/*.feature",
+      "../pages/cts-create/features/**/*.feature",
+      "../pages/cts-search/features/**/*.feature",
+      "../pages/cts-update/features/**/*.feature",
+      "../pages/cts-delete/features/**/*.feature",
+      "../pages/logout/features/**/*.feature"
+    ],
+    "steps": [
+      "../pages/**/*.ts"
+    ]
+  },
+  "local": {
+    "features": [
+      "../pages/login/features/**/*.feature"
+
+    ],
+    "steps": [
+      "../pages/**/*.ts"
+    ]
+  }
+}
