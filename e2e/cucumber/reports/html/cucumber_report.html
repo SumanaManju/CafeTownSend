@@ -426,7 +426,7 @@
   <h1>cms-frontend</h1>
 
   <h2 class="component"></h2>
-  <h3 class="timestamp">2019-11-17 11:37:43</h3>
+  <h3 class="timestamp">2019-11-17 01:44:15</h3>
 </header>
   <ul class="summary">
     <li>6 Features</li>
@@ -442,6 +442,12 @@
 
   <ul class="feature-list print-hide">
       <li class="passed">
+        <a href="#F_authentication" title="Authentication">Authentication</a>
+        <ul class="scenario-list">
+            <li class="passed"><a href="#S_authentication;i-login-to-cafetownsend-application" title="I login to CafeTownSend application">I login to CafeTownSend application</a></li>
+        </ul>
+      </li>
+      <li class="passed">
         <a href="#F_create---i-want-to-create-a-new-employee-in-cafetownsend-application" title="Create - I want to create a new employee in CafeTownSend application">Create - I want to create a new employee in CafeTownSend application</a>
         <ul class="scenario-list">
             <li class="passed"><a href="#S_create---i-want-to-create-a-new-employee-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-can-create-a-new-employee" title="I am on CafeTownSend application and I can create a new employee">I am on CafeTownSend application and I can create a new employee</a></li>
@@ -451,12 +457,6 @@
         <a href="#F_delete---i-want-to-delete-the-employee-i-created-in-cafetownsend-application" title="Delete - I want to delete the employee I created in CafeTownSend application">Delete - I want to delete the employee I created in CafeTownSend application</a>
         <ul class="scenario-list">
             <li class="passed"><a href="#S_delete---i-want-to-delete-the-employee-i-created-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-can-delete-the-employee-i-created" title="I am on CafeTownSend application and I can delete the employee I created">I am on CafeTownSend application and I can delete the employee I created</a></li>
-        </ul>
-      </li>
-      <li class="passed">
-        <a href="#F_login-cafetownsend-application" title="Login CafeTownSend application">Login CafeTownSend application</a>
-        <ul class="scenario-list">
-            <li class="passed"><a href="#S_login-cafetownsend-application;i-login-to-cafetownsend-application" title="I login to CafeTownSend application">I login to CafeTownSend application</a></li>
         </ul>
       </li>
       <li class="passed">
@@ -503,6 +503,18 @@
       </tr>
 
         <tr class="passed">
+          <td>Authentication</td>
+          <td class="scenarios-all"></td>
+          <td class="scenarios-passed passed"></td>
+          <td class="scenarios-failed failed"></td>
+          <td class="steps-all"></td>
+          <td class="steps-passed passed"></td>
+          <td class="steps-failed failed"></td>
+          <td class="steps-skipped skipped"></td>
+          <td class="duration">10.89 s</td>
+          <td class="status">passed</td>
+        </tr>
+        <tr class="passed">
           <td>Create - I want to create a new employee in CafeTownSend application</td>
           <td class="scenarios-all"></td>
           <td class="scenarios-passed passed"></td>
@@ -511,7 +523,7 @@
           <td class="steps-passed passed"></td>
           <td class="steps-failed failed"></td>
           <td class="steps-skipped skipped"></td>
-          <td class="duration">13.16 s</td>
+          <td class="duration">7.09 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -523,19 +535,7 @@
           <td class="steps-passed passed"></td>
           <td class="steps-failed failed"></td>
           <td class="steps-skipped skipped"></td>
-          <td class="duration">20.41 s</td>
-          <td class="status">passed</td>
-        </tr>
-        <tr class="passed">
-          <td>Login CafeTownSend application</td>
-          <td class="scenarios-all"></td>
-          <td class="scenarios-passed passed"></td>
-          <td class="scenarios-failed failed"></td>
-          <td class="steps-all"></td>
-          <td class="steps-passed passed"></td>
-          <td class="steps-failed failed"></td>
-          <td class="steps-skipped skipped"></td>
-          <td class="duration">16.83 s</td>
+          <td class="duration">8.4 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -547,7 +547,7 @@
           <td class="steps-passed passed"></td>
           <td class="steps-failed failed"></td>
           <td class="steps-skipped skipped"></td>
-          <td class="duration">11.26 s</td>
+          <td class="duration">5.07 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -559,7 +559,7 @@
           <td class="steps-passed passed"></td>
           <td class="steps-failed failed"></td>
           <td class="steps-skipped skipped"></td>
-          <td class="duration">15.54 s</td>
+          <td class="duration">6.56 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -571,7 +571,7 @@
           <td class="steps-passed passed"></td>
           <td class="steps-failed failed"></td>
           <td class="steps-skipped skipped"></td>
-          <td class="duration">20.66 s</td>
+          <td class="duration">8.52 s</td>
           <td class="status">passed</td>
         </tr>
 
@@ -579,6 +579,186 @@
   </div>
  -->
 
+    <section class="report" id="F_authentication">
+      <h2>Feature: Authentication <span class="tags">@Authentication</span></h2>
+
+      <p class="filename">e2e\cucumber\pages\login\features\login.feature</p>
+
+      <p class="story"></p>
+        <h3 id="S_authentication;i-login-to-cafetownsend-application">
+          Scenario: I login to CafeTownSend application
+            <span class="scenario-tag">@Authentication</span>
+            <span class="scenario-tag">@LoginScenario</span>
+        </h3>
+
+        <table>
+          <tr class="header-row">
+            <th style="width: 100px;">Condition</th>
+            <th>Step</th>
+            <th style="width: 100px;">Line</th>
+            <th class="duration" style="width: 100px;">Duration</th>
+            <th style="width: 100px;">Status</th>
+          </tr>
+
+            <tr class="passed">
+              <td>Given </td>
+              <td>
+                Login: I am on the &quot;&#x2F;&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>6</td>
+              <td class="duration">1.29 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>When </td>
+              <td>
+                Login: I wait for &quot;2&quot; seconds
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>7</td>
+              <td class="duration">2 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>And </td>
+              <td>
+                Login: I fill &quot;Luke&quot; in &quot;Username&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>8</td>
+              <td class="duration">0.01 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>And </td>
+              <td>
+                Login: I fill &quot;Skywalker&quot; in &quot;Password&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>9</td>
+              <td class="duration">0 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>When </td>
+              <td>
+                Login: I wait for &quot;5&quot; seconds
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>10</td>
+              <td class="duration">5 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>When </td>
+              <td>
+                Login: I click on &quot;Login button&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>11</td>
+              <td class="duration">0.58 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>When </td>
+              <td>
+                Login: I wait for &quot;2&quot; seconds
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>12</td>
+              <td class="duration">2 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>Then </td>
+              <td>
+                Login: Check &quot;Greeting&quot; message
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>13</td>
+              <td class="duration">0 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+
+        </table>
+
+
+        
+        
+    </section>
     <section class="report" id="F_create---i-want-to-create-a-new-employee-in-cafetownsend-application">
       <h2>Feature: Create - I want to create a new employee in CafeTownSend application <span class="tags">@Create</span></h2>
 
@@ -609,7 +789,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.08 s</td>
+              <td class="duration">0.1 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -617,18 +797,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>When </td>
               <td>
-                Create: I wait for &quot;3&quot; seconds
+                Create: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">3 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -636,7 +816,7 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
@@ -655,18 +835,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>When </td>
               <td>
-                Create: I wait for &quot;3&quot; seconds
+                Create: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>9</td>
-              <td class="duration">3 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -674,7 +854,7 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
@@ -685,7 +865,7 @@
                 </table>
               </td>
               <td>10</td>
-              <td class="duration">0.1 s</td>
+              <td class="duration">0.06 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -693,18 +873,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
-              <td>When </td>
+              <td>And </td>
               <td>
-                Create: I wait for &quot;3&quot; seconds
+                Create: I fill &quot;Sumana&quot; in &quot;Firstname&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>11</td>
-              <td class="duration">3 s</td>
+              <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -712,18 +892,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Create: I fill &quot;sss&quot; in &quot;Firstname&quot;
+                Create: I fill &quot;Manju&quot; in &quot;Lastname&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>12</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -731,18 +911,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Create: I fill &quot;maa&quot; in &quot;Lastname&quot;
+                Create: I fill &quot;1992-07-22&quot; in &quot;Startdate&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>13</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -750,18 +930,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Create: I fill &quot;1949-01-24&quot; in &quot;Startdate&quot;
+                Create: I fill &quot;suma@gmail.com&quot; in &quot;Email&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>14</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -769,18 +949,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
-              <td>And </td>
+              <td>When </td>
               <td>
-                Create: I fill &quot;a333@go.com&quot; in &quot;Email&quot;
+                Create: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>15</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">2.01 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -788,26 +968,7 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
-            </tr>
-            <tr class="passed">
-              <td>When </td>
-              <td>
-                Create: I wait for &quot;3&quot; seconds
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>16</td>
-              <td class="duration">3 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
@@ -817,8 +978,8 @@
                 <!--  -->
                 </table>
               </td>
-              <td>17</td>
-              <td class="duration">0.5 s</td>
+              <td>16</td>
+              <td class="duration">0.47 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -826,7 +987,7 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="0"></td>
+              <td class="screenshot-link" data-index="1"></td>
             </tr>
 
         </table>
@@ -865,7 +1026,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.13 s</td>
+              <td class="duration">0.09 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -873,18 +1034,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Delete: I wait for &quot;5&quot; seconds
+                Delete: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">5.01 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -892,12 +1053,12 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>When </td>
               <td>
-                Delete: I click on &quot;Checklist&quot; have &quot;AMS&quot;
+                Delete: I click on &quot;Checklist&quot; have &quot;Pichu Manju&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
@@ -911,18 +1072,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Delete: I wait for &quot;5&quot; seconds
+                Delete: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>9</td>
-              <td class="duration">5.01 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -930,7 +1091,7 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>When </td>
@@ -941,7 +1102,7 @@
                 </table>
               </td>
               <td>10</td>
-              <td class="duration">0.25 s</td>
+              <td class="duration">0.3 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -949,18 +1110,18 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>And </td>
               <td>
-                Delete: I wait for &quot;5&quot; seconds
+                Delete: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>11</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -968,140 +1129,17 @@
               <td class="trace" colspan="4">
                 <pre></pre>
               </td>
-              <td class="screenshot-link" data-index="1"></td>
+              <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
               <td>Then </td>
               <td>
-                Delete: I switch to alert
+                Delete: Switch to alert popup
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>12</td>
-              <td class="duration">0.01 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="1"></td>
-            </tr>
-            <tr class="passed">
-              <td>And </td>
-              <td>
-                Delete: I wait for &quot;5&quot; seconds
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>13</td>
-              <td class="duration">5 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="1"></td>
-            </tr>
-
-        </table>
-
-
-        
-        
-    </section>
-    <section class="report" id="F_login-cafetownsend-application">
-      <h2>Feature: Login CafeTownSend application <span class="tags">@Authentication</span></h2>
-
-      <p class="filename">e2e\cucumber\pages\login\features\login.feature</p>
-
-      <p class="story"></p>
-        <h3 id="S_login-cafetownsend-application;i-login-to-cafetownsend-application">
-          Scenario: I login to CafeTownSend application
-            <span class="scenario-tag">@Authentication</span>
-            <span class="scenario-tag">@LoginScenario</span>
-        </h3>
-
-        <table>
-          <tr class="header-row">
-            <th style="width: 100px;">Condition</th>
-            <th>Step</th>
-            <th style="width: 100px;">Line</th>
-            <th class="duration" style="width: 100px;">Duration</th>
-            <th style="width: 100px;">Status</th>
-          </tr>
-
-            <tr class="passed">
-              <td>Given </td>
-              <td>
-                Login: I am on the &quot;&#x2F;&quot;
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>6</td>
-              <td class="duration">1.26 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>When </td>
-              <td>
-                Login: I wait for &quot;5&quot; seconds
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>7</td>
-              <td class="duration">5.01 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>And </td>
-              <td>
-                Login: I fill &quot;Luke&quot; in &quot;Username&quot;
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>8</td>
-              <td class="duration">0.01 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>And </td>
-              <td>
-                Login: I fill &quot;Skywalker&quot; in &quot;Password&quot;
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>9</td>
               <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
@@ -1113,72 +1151,15 @@
               <td class="screenshot-link" data-index="2"></td>
             </tr>
             <tr class="passed">
-              <td>When </td>
+              <td>And </td>
               <td>
-                Login: I wait for &quot;5&quot; seconds
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>10</td>
-              <td class="duration">5 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>When </td>
-              <td>
-                Login: I click on &quot;Login button&quot;
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>11</td>
-              <td class="duration">0.54 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>When </td>
-              <td>
-                Login: I wait for &quot;5&quot; seconds
-                <table class="datatable">
-                <!--  -->
-                </table>
-              </td>
-              <td>12</td>
-              <td class="duration">5 s</td>
-              <td class="status">passed</td>
-            </tr>
-
-            <tr class="hidden passed">
-              <td class="trace" colspan="4">
-                <pre></pre>
-              </td>
-              <td class="screenshot-link" data-index="2"></td>
-            </tr>
-            <tr class="passed">
-              <td>Then </td>
-              <td>
-                Login: Check &quot;Greeting&quot; message
+                Delete: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>13</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1225,7 +1206,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.13 s</td>
+              <td class="duration">0.07 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1238,13 +1219,13 @@
             <tr class="passed">
               <td>Then </td>
               <td>
-                Logout: I wait for &quot;5&quot; seconds
+                Logout: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1263,7 +1244,7 @@
                 </table>
               </td>
               <td>8</td>
-              <td class="duration">0.51 s</td>
+              <td class="duration">0.44 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1276,13 +1257,13 @@
             <tr class="passed">
               <td>Then </td>
               <td>
-                Logout: I wait for &quot;5&quot; seconds
+                Logout: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>9</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1301,7 +1282,7 @@
                 </table>
               </td>
               <td>10</td>
-              <td class="duration">0.62 s</td>
+              <td class="duration">0.57 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1348,7 +1329,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.09 s</td>
+              <td class="duration">0.12 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1361,13 +1342,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Search: I wait for &quot;5&quot; seconds
+                Search: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1380,13 +1361,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Search: I click on &quot;Checklist&quot; have &quot;sss maa&quot;
+                Search: I click on &quot;Checklist&quot; have &quot;Sumana Manju&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>8</td>
-              <td class="duration">0.01 s</td>
+              <td class="duration">0 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1399,13 +1380,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Search: I wait for &quot;5&quot; seconds
+                Search: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>9</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1437,13 +1418,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Search: I wait for &quot;5&quot; seconds
+                Search: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>11</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1490,7 +1471,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.14 s</td>
+              <td class="duration">0.08 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1503,13 +1484,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I wait for &quot;5&quot; seconds
+                Update: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1522,7 +1503,7 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I click on &quot;Checklist&quot; have &quot;sss maa&quot;
+                Update: I click on &quot;Checklist&quot; have &quot;Sumana Manju&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
@@ -1541,13 +1522,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I wait for &quot;5&quot; seconds
+                Update: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>9</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1560,7 +1541,7 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I fill &quot;AMS&quot; in &quot;Firstname&quot;
+                Update: I fill &quot;Pichu&quot; in &quot;Firstname&quot;
                 <table class="datatable">
                 <!--  -->
                 </table>
@@ -1579,13 +1560,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I wait for &quot;5&quot; seconds
+                Update: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>11</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1604,7 +1585,7 @@
                 </table>
               </td>
               <td>12</td>
-              <td class="duration">0.52 s</td>
+              <td class="duration">0.43 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1617,13 +1598,13 @@
             <tr class="passed">
               <td>And </td>
               <td>
-                Update: I wait for &quot;5&quot; seconds
+                Update: I wait for &quot;2&quot; seconds
                 <table class="datatable">
                 <!--  -->
                 </table>
               </td>
               <td>13</td>
-              <td class="duration">5 s</td>
+              <td class="duration">2 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -1666,15 +1647,27 @@
       </tr>
 
         <tr class="passed">
+          <td>@Authentication</td>
+          <td class="scenarios-all">1</td>
+          <td class="scenarios-passed passed">1</td>
+          <td class="scenarios-failed failed">0</td>
+          <td class="steps-all">8</td>
+          <td class="steps-passed passed">8</td>
+          <td class="steps-failed failed">0</td>
+          <td class="steps-skipped skipped">0</td>
+          <td class="duration">10.89 s</td>
+          <td class="status">passed</td>
+        </tr>
+        <tr class="passed">
           <td>@Create</td>
           <td class="scenarios-all">1</td>
           <td class="scenarios-passed passed">1</td>
           <td class="scenarios-failed failed">0</td>
-          <td class="steps-all">12</td>
-          <td class="steps-passed passed">12</td>
+          <td class="steps-all">11</td>
+          <td class="steps-passed passed">11</td>
           <td class="steps-failed failed">0</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">13.16 s</td>
+          <td class="duration">7.09 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -1686,19 +1679,7 @@
           <td class="steps-passed passed">8</td>
           <td class="steps-failed failed">0</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">20.41 s</td>
-          <td class="status">passed</td>
-        </tr>
-        <tr class="passed">
-          <td>@Authentication</td>
-          <td class="scenarios-all">1</td>
-          <td class="scenarios-passed passed">1</td>
-          <td class="scenarios-failed failed">0</td>
-          <td class="steps-all">8</td>
-          <td class="steps-passed passed">8</td>
-          <td class="steps-failed failed">0</td>
-          <td class="steps-skipped skipped">0</td>
-          <td class="duration">16.83 s</td>
+          <td class="duration">8.4 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -1710,7 +1691,7 @@
           <td class="steps-passed passed">5</td>
           <td class="steps-failed failed">0</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">11.26 s</td>
+          <td class="duration">5.07 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -1722,7 +1703,7 @@
           <td class="steps-passed passed">6</td>
           <td class="steps-failed failed">0</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">15.54 s</td>
+          <td class="duration">6.56 s</td>
           <td class="status">passed</td>
         </tr>
         <tr class="passed">
@@ -1734,7 +1715,7 @@
           <td class="steps-passed passed">8</td>
           <td class="steps-failed failed">0</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">20.66 s</td>
+          <td class="duration">8.52 s</td>
           <td class="status">passed</td>
         </tr>
 

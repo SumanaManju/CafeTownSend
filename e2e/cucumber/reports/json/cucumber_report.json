@@ -1,9 +1,9 @@
 [
   {
     "keyword": "Feature",
-    "name": "Login CafeTownSend application",
+    "name": "Authentication",
     "line": 2,
-    "id": "login-cafetownsend-application",
+    "id": "authentication",
     "tags": [
       {
         "name": "@Authentication",
@@ -13,7 +13,7 @@
     "uri": "e2e\\cucumber\\pages\\login\\features\\login.feature",
     "elements": [
       {
-        "id": "login-cafetownsend-application;i-login-to-cafetownsend-application",
+        "id": "authentication;i-login-to-cafetownsend-application",
         "keyword": "Scenario",
         "line": 17,
         "name": "I login to CafeTownSend application",
@@ -39,20 +39,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1262000000
+              "duration": 1292000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "Login: I wait for \"5\" seconds",
+            "name": "Login: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5009000000
+              "duration": 2002000000
             }
           },
           {
@@ -61,11 +61,11 @@
             "line": 8,
             "name": "Login: I fill \"Luke\" in \"Username\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 6000000
             }
           },
           {
@@ -74,11 +74,11 @@
             "line": 9,
             "name": "Login: I fill \"Skywalker\" in \"Password\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           },
           {
@@ -87,11 +87,11 @@
             "line": 10,
             "name": "Login: I wait for \"5\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5003000000
+              "duration": 5004000000
             }
           },
           {
@@ -100,24 +100,24 @@
             "line": 11,
             "name": "Login: I click on \"Login button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 537000000
+              "duration": 580000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 12,
-            "name": "Login: I wait for \"5\" seconds",
+            "name": "Login: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5003000000
+              "duration": 2002000000
             }
           },
           {
@@ -130,7 +130,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 3000000
             }
           },
           {
@@ -164,7 +164,7 @@
       {
         "id": "create---i-want-to-create-a-new-employee-in-cafetownsend-application;i-am-on-cafetownsend-application-and-i-can-create-a-new-employee",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 20,
         "name": "I am on CafeTownSend application and I can create a new employee",
         "tags": [
           {
@@ -188,20 +188,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 98000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "Create: I wait for \"3\" seconds",
+            "name": "Create: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 3002000000
+              "duration": 2003000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "line": 8,
             "name": "Create: I click on \"Create button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
@@ -221,13 +221,13 @@
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "Create: I wait for \"3\" seconds",
+            "name": "Create: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 3002000000
+              "duration": 2000000000
             }
           },
           {
@@ -240,98 +240,85 @@
             },
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 58000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 11,
-            "name": "Create: I wait for \"3\" seconds",
+            "name": "Create: I fill \"Sumana\" in \"Firstname\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 3002000000
+              "duration": 3000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "Create: I fill \"sss\" in \"Firstname\"",
+            "name": "Create: I fill \"Manju\" in \"Lastname\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "Create: I fill \"maa\" in \"Lastname\"",
+            "name": "Create: I fill \"1992-07-22\" in \"Startdate\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "Create: I fill \"1949-01-24\" in \"Startdate\"",
+            "name": "Create: I fill \"suma@gmail.com\" in \"Email\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "Create: I fill \"a333@go.com\" in \"Email\"",
-            "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 16,
-            "name": "Create: I wait for \"3\" seconds",
+            "line": 15,
+            "name": "Create: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 3002000000
+              "duration": 2005000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
+            "line": 16,
             "name": "Create: I click on \"Add button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 502000000
+              "duration": 474000000
             }
           },
           {
@@ -342,7 +329,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           }
         ]
@@ -389,46 +376,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 124000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Search: I wait for \"5\" seconds",
+            "name": "Search: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5002000000
+              "duration": 2002000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Search: I click on \"Checklist\" have \"sss maa\"",
+            "name": "Search: I click on \"Checklist\" have \"Sumana Manju\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\cts-search\\cts-search.steps.ts:18"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Search: I wait for \"5\" seconds",
+            "name": "Search: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5001000000
+              "duration": 2001000000
             }
           },
           {
@@ -437,24 +424,24 @@
             "line": 10,
             "name": "Search: I click on \"Back button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 434000000
+              "duration": 426000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "Search: I wait for \"5\" seconds",
+            "name": "Search: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5002000000
+              "duration": 2000000000
             }
           },
           {
@@ -464,8 +451,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -512,29 +498,55 @@
             },
             "result": {
               "status": "passed",
-              "duration": 137000000
+              "duration": 81000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Update: I wait for \"5\" seconds",
+            "name": "Update: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5001000000
+              "duration": 2001000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "Update: I click on \"Checklist\" have \"sss maa\"",
+            "name": "Update: I click on \"Checklist\" have \"Sumana Manju\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\cts-update\\cts-update.steps.ts:29"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Update: I wait for \"2\" seconds",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update: I fill \"Pichu\" in \"Firstname\"",
+            "match": {
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:48"
             },
             "result": {
               "status": "passed",
@@ -544,40 +556,14 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "Update: I wait for \"5\" seconds",
-            "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5002000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "Update: I fill \"AMS\" in \"Firstname\"",
-            "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 11,
-            "name": "Update: I wait for \"5\" seconds",
+            "name": "Update: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5002000000
+              "duration": 2001000000
             }
           },
           {
@@ -586,24 +572,24 @@
             "line": 12,
             "name": "Update: I click on \"Update button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 515000000
+              "duration": 429000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "Update: I wait for \"5\" seconds",
+            "name": "Update: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5000000000
+              "duration": 2000000000
             }
           },
           {
@@ -661,46 +647,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 125000000
+              "duration": 90000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Delete: I wait for \"5\" seconds",
+            "name": "Delete: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5005000000
+              "duration": 2001000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 8,
-            "name": "Delete: I click on \"Checklist\" have \"AMS\"",
+            "name": "Delete: I click on \"Checklist\" have \"Pichu Manju\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\cts-delete\\cts-delete.steps.ts:35"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "Delete: I wait for \"5\" seconds",
+            "name": "Delete: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5005000000
+              "duration": 2001000000
             }
           },
           {
@@ -709,50 +695,50 @@
             "line": 10,
             "name": "Delete: I click on \"Delete button\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 252000000
+              "duration": 299000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "Delete: I wait for \"5\" seconds",
+            "name": "Delete: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5003000000
+              "duration": 2001000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "Delete: I switch to alert",
+            "name": "Delete: Switch to alert popup",
             "match": {
-              "location": "e2e\\cucumber\\pages\\cts-delete\\cts-delete.steps.ts:25"
+              "location": "e2e\\cucumber\\pages\\cts-delete\\cts-delete.steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 4000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "Delete: I wait for \"5\" seconds",
+            "name": "Delete: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5003000000
+              "duration": 2001000000
             }
           },
           {
@@ -763,7 +749,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]
@@ -810,20 +796,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 66000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "Logout: I wait for \"5\" seconds",
+            "name": "Logout: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5002000000
+              "duration": 2001000000
             }
           },
           {
@@ -832,24 +818,24 @@
             "line": 8,
             "name": "Logout: I click on \"Logout\"",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:96"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:57"
             },
             "result": {
               "status": "passed",
-              "duration": 510000000
+              "duration": 436000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 9,
-            "name": "Logout: I wait for \"5\" seconds",
+            "name": "Logout: I wait for \"2\" seconds",
             "match": {
-              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:149"
+              "location": "e2e\\cucumber\\pages\\base\\steps\\common.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 5002000000
+              "duration": 2002000000
             }
           },
           {
@@ -862,7 +848,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 620000000
+              "duration": 569000000
             }
           },
           {
@@ -873,7 +859,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           }
         ]

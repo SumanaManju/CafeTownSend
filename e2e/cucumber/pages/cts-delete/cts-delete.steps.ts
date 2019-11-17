@@ -1,4 +1,4 @@
-import {browser, by, element, protractor} from 'protractor';
+import {browser, protractor} from 'protractor';
 import { When } from 'cucumber';
 import { BaseStepDefinitions } from '../base/steps/base.steps';
 import {DeletePageObjects} from './cts-delete.po';
@@ -13,31 +13,13 @@ export class DeleteStepDefinitions extends DeletePageObjects implements BaseStep
   }
 
   stepDefinitions() {
-
     this.addCommonSteps(this.pageObjects, pageName, deleteDataSets);
 
-    When(new RegExp(`^${pageName}: I doubleclick on "([^"]*)"$`), (elementKey, callback) => {
-      browser.actions().doubleClick(element(by.repeater('employee in employees'))).perform();
-      callback();
-    });
-
-
-    When(new RegExp(`^${pageName}: I switch to alert$`), (callback) => {
-      // element(by.cssContainingText('.main-button', 'Delete')).click();
-      browser.ignoreSynchronization = true
+    When(new RegExp(`^${pageName}: Switch to alert popup$`), (callback) => {
       browser.wait(protractor.ExpectedConditions.alertIsPresent(), 5000);
-     // browser.sleep(5000);
-      const ale = browser.switchTo().alert();
-      ale.accept();
+      browser.switchTo().alert().accept();
       callback();
     });
-
-    When(new RegExp(`^${pageName}: I click on "([^"]*)" have "([^"]*)"$`),
-      (elementKey, context, callback) => {
-        browser.sleep(2000);
-        browser.actions().doubleClick(this.pageObjects[deleteDataSets[elementKey]]).perform();
-        callback();
-      });
   }
 }
 

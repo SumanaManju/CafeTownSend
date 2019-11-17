@@ -8,7 +8,7 @@ export class UpdatePageObjects extends CommonStepDefinitions implements BasePage
     viewPage: element(by.css('.main-view-employees')),
     firstName: element(by.model('selectedEmployee.firstName')),
     checklist: element(by.repeater('employee in employees'))
-      .element(by.xpath('//li[contains(text(), "sss maa")]'))
+      .element(by.xpath('//li[contains(text(), "Sumana Manju")]'))
   };
 }
 
